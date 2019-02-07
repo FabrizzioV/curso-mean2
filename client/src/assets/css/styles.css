@@ -1,0 +1,270 @@
+html, body{
+	margin: 0px;
+	height: 100%;
+	background: #eee;
+}
+.container-fluid{
+	width: all;
+}
+
+.conten{
+	height: 70vh;
+}
+
+.actived{
+	border-bottom: 4px solid #84BD00;
+	padding-bottom: 4px;
+}
+
+.central{
+	height: 100vh;
+}
+
+.seguro{
+	margin-top: -31px;
+	background: #1c1c1f;
+	position: absolute;
+	height: 40px;
+}
+
+.seguro-album{
+	margin-top: -41px;
+	margin-left: 10px;
+}
+
+.navigation{
+	text-align: center;
+	color: white;
+	background: #1c1c1f;
+	height: 100vh !important;
+}
+
+.navigation a{
+	color: #ddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: white;
+}
+
+
+.head-title{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25xpx;
+	display: block;
+	cursor: pointer;
+}
+
+#user_logged{
+	text-decoration: center;
+	background: #1c1c1f;
+	position: absolute;
+	bottom: 0px;
+	border-top: 1px solid #444;
+	width: 75%;
+}
+
+#user_logged .user-image{
+	background: #eee;
+	border-radius: 100px;
+	height: 57px;
+	width: 57px;
+	margin: 0px auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+#user_logged .user-image img{
+	width: 57px;
+}
+
+.btn-logout{
+	cursor: pointer;
+}
+
+.artist_image_for_edit img,
+.album_image_for_edit img{
+	width: 150px;
+}
+
+#gallery-songs{
+	margin-top: 10px;
+	overflow-y: auto;
+}
+
+.artist-list,
+.album-list{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+	list-style: none;
+	min-height: 100%;
+}
+
+.artist-item{
+	width: 23%;
+	padding: 0px;
+	margin: 0px;
+	height: 317px;
+	background: #222326;
+	border: 1px solid #444;
+	margin-right: 20px;
+}
+
+.album-item{
+	height:300px;
+	margin-bottom: 20px;
+}
+
+.image-artist{
+	width: 100%;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+
+.artist-item .artist-image,
+.album-item .album-image{
+	height: 245px;
+	width: 100%;
+	overflow: hidden;
+	background: black;
+}
+
+.album-item .album-image{
+	height: 188px;
+}
+
+.artist-item .artist-image img{
+	min-width: 100%;
+	height:100%;
+}
+
+.album-list{
+}
+.album-item .album-image img{
+	width: 100%;
+}
+
+.artist-item .artist-name,
+.album-item .album-name{
+	color: white;
+	padding: 0 10px 10px 10px;
+	background: #222326;
+}
+
+.album-artist-name{
+	margin-bottom: 10px;
+}
+
+.artist-item .artist-name a,
+.album-item .album-name a{
+	color: white;
+}
+
+#artist-head-card .image,
+#album-head-card .image{
+	width: 170px;
+	height: 170px;
+	margin-top: 10px;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+}
+.album-image-img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#artist-head-card .image img
+#album-head-card .image img{
+	height: 170px;
+}
+
+.artist-imagen{
+	width: 100%;
+}
+
+.add{
+	margin-top: 10px;
+	float: right;
+}
+
+#songs-list{
+	margin: 0px;
+	padding: 0px;
+	height: 330px;
+	padding-bottom: 200px;
+	overflow-y: auto;
+}
+
+.song-item{
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	padding-top: 3px;
+}
+
+.song-item .title{
+	padding: 12px;
+}
+
+.song-item .buttons{
+	float:right;
+}
+
+.song-item .btn-success{
+	margin-right: 10px;
+}
+
+.seguro-song{
+	right: 10px;
+	margin-top: -35px;
+	background: #eee;
+}
+
+.player{
+	background: #1c1c1f;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 20px;
+	margin-left: -15px;
+	border-left: 1px solid #444;
+	color: gray;
+}
+
+.player .album-image{
+	float: left;
+	width: 120px;
+	height: 105px;
+	overflow: hidden;
+}
+
+.player .album-image img{
+	height: 100%
+}
+
+.player .audio-file{
+	width: 85%;
+	height: 40px;
+	margin-top: 7px; 
+	margin-left: 10px;
+	float: left;
+}
+
+.player audio{
+	width: 100%;
+	height: 40px;
+
+}
+
+.pagination{
+	margin-top: 10px;
+}
